@@ -23,10 +23,9 @@ public class BfhlResponse {
     @JsonProperty("alphabets")
     private List<String> alphabets;
 
-    // ── Getters & Setters ──
-
+    
     @JsonProperty("is_success")
-    private boolean success;   // ← rename from isSuccess to success
+    private boolean success;   
 
     public boolean isSuccess() { return success; }
     public void setSuccess(boolean success) { this.success = success; }
